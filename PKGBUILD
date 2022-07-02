@@ -6,7 +6,7 @@ _srcname=linux-odroid-${_srcver}
 _kernelname=${pkgbase#linux}
 _desc="Kernel for Odroid XU3/4"
 pkgver=5.15.7
-pkgrel=0
+pkgrel=1
 arch=('armv7h')
 url="http://www.kernel.org/"
 license=('GPL2')
@@ -18,7 +18,7 @@ source=("https://github.com/tobetter/linux/archive/refs/heads/odroid-${_srcver}.
         'linux.preset'
         '60-linux.hook'
         '90-linux.hook')
-md5sums=('c8d730a94371b65d6c88a08e6f5b98cf'
+md5sums=('d2fb44bffcd36933410c5e8bcccfd10a'
          '0861466d5a888b486c7b75f736893c6c'
          '86d4a35722b5410e3b29fc92dae15d4b'
          'ce6c81ad1ad1f8b333fd6077d47abdaf'

@@ -2,7 +2,7 @@
 # arg 2:  the old package version
 
 KERNEL_NAME=-odroid-xu3
-KERNEL_VERSION=5.15.7-0-0-0-0-0-0-0-0-1-1-2-2-2-3-3
+KERNEL_VERSION=5.15.51-1
 
 post_install () {
   # updating module dependencies
